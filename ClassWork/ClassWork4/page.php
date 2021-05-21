@@ -41,13 +41,12 @@
         include("blockes/authorization.php");
     }
     for($i=0; $i<5; $i++){
-        @include("blcoks/header.php")
-    }
-
-    include("blocks/header.php");
-    include_once("blocks/body.php");
-    include("blocks/header.php");
-    require("blocks/header.php")
+        include("blcoks/header.php")
+        include("blocks/header.php");
+        include_once("blocks/body.php");
+        include("blocks/header.php");
+        require("blocks/header.php")
+        ]
     ?>
 </body>
 </html>
